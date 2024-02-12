@@ -7,22 +7,22 @@ return
     [
         'index'=>
         [
-            'extends'=>'default',
+            'extends'=>'adminlte::page',
             'section'=>'content'
         ],
         'create'=>
         [
-            'extends'=>'default',
+            'extends'=>'adminlte::page',
             'section'=>'content'
         ],
         'edit'=>
         [
-            'extends'=>'default',
+            'extends'=>'adminlte::page',
             'section'=>'content'
         ],
         'show'=>
         [
-            'extends'=>'default',
+            'extends'=>'adminlte::page',
             'section'=>'content'
         ],
     ],

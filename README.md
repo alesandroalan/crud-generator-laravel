@@ -1,5 +1,7 @@
 # Crud Generator Laravel 9 and 10 (your time saver)
 
+**With ADMIN LTE 3*
+
 Crud Generator Laravel is a package that you can integrate in your Laravel to create a REAL CRUD. It includes :
 
 - **Controller** with all the code already written
@@ -27,7 +29,12 @@ If you find this project useful, please consider giving it a star⭐. It helps m
 
 <sub>(Note: This step is not required if you don't need views.)</sub>
 
-3\. Publish the configuration file, stubs and the default-theme directory for views:
+3\. Install AdminLTE Theme for Laravel
+```composer require jeroennoten/laravel-adminlte```
+
+[ Instalation Guide ] (https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation)
+
+4\. Publish the configuration file, stubs and the default-theme directory for views:
 
 ``` php artisan vendor:publish --provider="Mrdebug\Crudgen\CrudgenServiceProvider" ```
 
